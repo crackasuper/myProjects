@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding-top: 30px;
+	font-family: Verdana,Geneva,Tahoma,sans-serif;
+	box-sizing: border-box;
+}
+
+.logo {
+	color: red;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	text-align: center;
+}
+h1 {
+	color:red;
+}
+body {
+	background-image: url("ded.jpg");
+	
+}
+span {
+	color: blue;
+}
+ul li {
+	
+	list-style-type: none;
+	display: inline-block;
+	color: blue;
+	font-size: 30px;
+	
+}
+form {
+	text-align: center;
+	font-family: Verdana sans-serif;
+	
+	color: blue;
+	
+
+	
+}
+form input {
+	font-size: 15px;
+}
+

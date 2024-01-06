@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+    <servlet-name> page</servlet-name>
+    <servlet-class>com.sd.astu.Home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>page</servlet-name>
+     <url-pattern>/Home/</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>admin</servlet-name>
+    <servlet-class>com.astu.Admin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>admin</servlet-name>
+    <url-mapping>/Admin</url-mapping>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>adddelivery</servlet-name>
+    <servlet-class>com.sd.astu.DeliveryAdd</servlet-class>
+  </servlet>
+  <sevlet-mapping>
+     <servlet-name>adddelivery</servlet-name>
+     <url-pattern>/DeliveryAdd</url-pattern>
+  </sevlet-mapping>
+  <servlet>
+    <servlet-name>deletedelivery</servlet-name>
+    <servlet-class>com.sd.astu.Deletedelivery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-mapping>
+      <servlet-name>deletedelivery</servlet-name>
+      <url-pattern>/Deletedelivery</url-pattern>
+    </servlet-mapping>
+  </servlet-mapping>
+  
+   <servlet>
+     <servlet-name>addfood</servlet-name>
+     <servlet-class>com.sd.astu.Addfood</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>addfood</servlet-name>
+      <url-pattern>/AddFood</url-pattern>
+   </servlet-mapping>
+   <servlet>
+     <servlet-name>deletefood</servlet-name>
+     <servlet-class>com.sd.astu.DeleteFood</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>deletefood</servlet-name>
+     <url-pattern>/DeleteFood</url-pattern>
+   </servlet-mapping>
+   <servlet>
+    
+       <servlet-name>update</servlet-name>
+       <servlet-class>com.astu.sd.UpdateFood</servlet-class> 
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>update</servlet-name>
+       <url-pattern>/UpdateFood</url-pattern>
+   </servlet-mapping>
+   <servlet>
+    <servlet-name>deliverylogin</servlet-name>
+    <servlet-class>com.sd.astu.DeliveryLogIn</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>deliverylogin</servlet-name>
+     <url-pattern>DeliveryLogIn</url-pattern>
+   </servlet-mapping>
+   <servlet>
+     <servlet-name>deliverysignup</servlet-name>
+     <servlet-class>com.sd.astu.DeliverySignUp</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>deliverysignup</servlet-name>
+     <url-pattern>/DeliverySignUp</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+     <servlet-name>usersignup</servlet-name>
+     <servlet-class>com.sd.astu.userSign</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>usersignup</servlet-name>
+     <url-pattern>/userSignup</url-pattern>
+   </servlet-mapping>
+   <servlet>
+     <servlet-name>userlogin</servlet-name>
+     <servlet-class>com.sd.astu.Userlogin</servlet-class>
+   </servlet>
+   <servlet-mapping>
+     <servlet-name>userslogin</servlet-name>
+     <url-pattern>/Userlogin</url-pattern>
+   </servlet-mapping>
+   <servlet>
+      <servlet-name>order</servlet-name>
+      <servlet-class>com.sd.astu.ordering</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>order</servlet-name>
+      <url-pattern>/ordering</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>servlet</servlet-name>
+      <servlet-class>com.sd.astu.confirmationOrder</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>servlet</servlet-name>
+      <url-pattern>/confirmationOrder</url-pattern>
+    </servlet-mapping>
+    
+    <sevlet>
+      <servlet-name>show</servlet-name>
+      <servlet-class>com.sd.astu.showData</servlet-class>
+    </sevlet>
+    
+    <servlet-mapping>
+    
+       <servlet-name>show</servlet-name>
+       <url-mapping>/showData</url-mapping>
+    </servlet-mapping>
+    
+   
+  
+</web-app>
+</element>
+
+
+
+
+
+
+
+
+
+
